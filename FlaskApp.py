@@ -12,6 +12,7 @@ from typing import List, Dict, Any, Optional
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 from werkzeug.utils import secure_filename
+from flask_cors import CORS
 
 # Load environment variables
 load_dotenv()
@@ -347,6 +348,7 @@ IMPORTANT: The JSON response must be valid JSON with no leading or trailing whit
 
 # Initialize Flask app
 app = Flask(__name__)
+CORS(app)
 
 # Configure upload folder
 UPLOAD_FOLDER = 'uploads'
