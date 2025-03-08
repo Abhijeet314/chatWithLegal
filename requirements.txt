@@ -2,9 +2,7 @@ flask
 flask_cors
 together
 PyPDF2
-docx
+python-docx
 pydantic
-dotenv
-werkzeug
+python-dotenv
 gunicorn
-exceptions
