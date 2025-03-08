@@ -1,0 +1,9 @@
+flask
+flask_cors
+together
+PyPDF2
+docx
+pydantic
+dotenv
+werkzeug
+gunicorn
