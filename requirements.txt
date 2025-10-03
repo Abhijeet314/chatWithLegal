@@ -1,8 +1,8 @@
+google-generativeai
 flask
-flask_cors
-together
-PyPDF2
-python-docx
-pydantic
+flask-cors
 python-dotenv
-gunicorn
+pydantic 
+PyPDF2 
+python-docx 
+werkzeug
